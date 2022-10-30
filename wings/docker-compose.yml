@@ -12,9 +12,9 @@ services:
       - "443:443"
     tty: true
     environment:
-      TZ: "UTC"
-      WINGS_UID: 988
-      WINGS_GID: 988
+      TZ: "Asia/Kolkata"
+      WINGS_UID: 1000
+      WINGS_GID: 1000
       WINGS_USERNAME: pterodactyl
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
